@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>5 задание - Поле чудес</title>
+	<style type="text/css">
+		/* Главный див */
+		.container {
+			width: 600px;
+		}
+		/* класс для правильной буквы 1 */
+		.letter1 {
+			background: black;
+			border: 1px solid #dee2e6;
+			height: 100px;
+			width: 100px;
+		}
+		/* класс для правильной буквы 2 */
+		.letter2 {
+			background: black;
+			border: 1px solid #dee2e6;
+			height: 100px;
+			width: 100px;
+		}
+		/* класс для правильной буквы 3 */
+		.letter3 {
+			background: black;
+			border: 1px solid #dee2e6;
+			height: 100px;
+			width: 100px;
+		}
+		/* класс для правильной буквы 4 */
+		.letter4 {
+			background: black;
+			border: 1px solid #dee2e6;
+			height: 100px;
+			width: 100px;
+		}
+		/* класс для правильной буквы 5 */
+		.letter5 {
+			background: black;
+			border: 1px solid #dee2e6;
+			height: 100px;
+			width: 100px;
+		}
+		/* класс для правильной буквы 6 */
+		.letter6 {
+			background: black;
+			border: 1px solid #dee2e6;
+			height: 100px;
+			width: 100px;
+		}
+		/* авт. отступы */
+		.mx-auto {
+			margin-left: auto;
+			margin-right: auto;
+		}
+		/* DISPLAY FLEX */
+		.d-flex {
+			display: flex;
+		}
+		/* ШРИФТ Arial */
+		.ff-arial {
+			font-family: Arial;
+		}
+		/* фон светло-серый, почти белый */
+		.bg-light {
+			background-color: #f8f9fa;
+		}
+		/* фон желтый */
+		.bg-warning {
+			background-color: #ffc107;
+		}
+		/* ведущий Якубович */
+		.yakubovich {
+			background-image: url(1.png);
+			background-size: 100% 100%;
+			width: 400px;
+			height: 400px;
+			position: absolute;
+			left: 0px;
+			top: 400px;
+		}
+		.let{
+
+		}
+	</style>
+</head>
+<body class="ff-arial">
+	<!-- Вопрос -->
+	<div class="bg-warning container mx-auto">
+		Как называется самый влиятельный символ в китайской культуре?
+	</div>
+	<!-- Главный див -->
+	<div class="container mx-auto d-flex bg-light">
+		<div class="letter1">
+			<h1>Д</h1>
+		</div>
+		<div class="letter2">
+			<h1>Р</h1>
+		</div>
+		<div class="letter3">
+			<h1>А</h1>
+		</div>
+		<div class="letter4">
+			<h1>К</h1>
+		</div>
+		<div class="letter5">
+			<h1>О</h1>
+		</div>
+		<div class="letter6">
+			<h1>Н</h1>
+		</div>
+	</div>
+	<!-- Добавьте классы для букв сами -->
+	<span class="let3">A</span>
+	<span class="let">Б</span>
+	<span class="let">В</span>
+	<span class="let">Г</span>
+	<span class="let1">Д</span>		
+	<span class="let">Е</span>	
+	<span class="let">Ё</span>
+	<span class="let">Ж</span>
+	<span class="let">З</span>
+	<span class="let">И</span>
+	<span class="let">Й</span>
+	<span class="let4">К</span>
+	<span class="let">Л</span>
+	<span class="let">М</span>
+	<span class="let6">Н</span>
+	<span class="let5">О</span>
+	<span class="let">П</span>
+	<span class="let2">Р</span>
+	<span class="let">С</span>
+	<span class="let">Т</span>
+	<span class="let">У</span>
+	<span class="let">Ф</span>
+	<span class="let">Х</span>
+	<span class="let">Ц</span>
+	<span class="let">Ч</span>
+	<span class="let">Ш</span>
+	<span class="let">Щ</span>
+	<span class="let">Ъ</span>
+	<span class="let">Ы</span>
+	<span class="let">Ь</span>
+	<span class="let">Э</span>
+	<span class="let">Ю</span>
+	<span class="let">Я</span>
+	<!-- ведущий -->
+	<div class="yakubovich">
+	</div>
+	<script type="text/javascript">
+		/* Создай игру "Поле чудес".
+		1. Когда кликаешь на правильную букву алфавита, то открывается буква в слове.
+		2. Когда кликаешь на неправильную букву алфавита, то выходит всплывающее окно 'Неверно!'.
+		Вначале сделай, так чтобы работали клики на правильные буквы. Потом сделай, так чтобы работали клики на 1-2 неправильные буквы. На все 33 буквы алфавита, можно не делать. Да, надо каждой букве придумывать новый класс.
+		3. Придумай свой вопрос и ответ. 
+		 */
+		let teg1 = document.querySelector('.let1');
+		let teeg1 = document.querySelector('.letter1');
+		 teg1.onclick = function(){
+		 	teeg1.style.background = 'white';
+		 } 
+		let teg2 = document.querySelector('.let2');
+		let teeg2 = document.querySelector('.letter2');
+		  teg2.onclick = function(){
+		 	teeg2.style.background = 'white';
+		 } 
+		 let teg3 = document.querySelector('.let3');
+		let teeg3 = document.querySelector('.letter3');
+		 teg3.onclick = function(){
+		 	teeg3.style.background = 'white';
+		 } 
+		 let teg4 = document.querySelector('.let4');
+		let teeg4 = document.querySelector('.letter4');
+		 teg4.onclick = function(){
+		 	teeg4.style.background = 'white';
+		 }
+		 let teg5 = document.querySelector('.let5');
+		let teeg5 = document.querySelector('.letter5');
+		  teg5.onclick = function(){
+		 	teeg5.style.background = 'white';
+		 }
+		 let teg6 = document.querySelector('.let6');
+		let teeg6 = document.querySelector('.letter6');
+		  teg6.onclick = function(){
+		 	teeg6.style.background = 'white';
+		 }
+		 let teg = document.querySelector('.let');
+		 teg.onclick = function(){
+		 	alert('Неверно');
+		 } 
+	</script>
+</body>
+</html>
